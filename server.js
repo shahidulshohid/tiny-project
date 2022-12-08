@@ -5,6 +5,7 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 const morgan = require("morgan");
 const { readdirSync } = require("fs");
+const cors = require("cors");
 
 
 //middlewares
